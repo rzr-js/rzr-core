@@ -1,6 +1,7 @@
-#### **rzr** (_razor_) is a razor-thin functional application framework 
-
-**rzr** consists of a small number of artifacts, primarily: **Services**, **Models** and **Agents**
+## **rzr** 
+(_razor_) is a razor-thin functional application framework 
+### Core Components
+**rzr** consists of 3 core components: **Services**, **Models** and **Agents**
 <br><br>
 **Services** are the _verbs_ in your stories- the _actions_ that happen.
 
@@ -28,3 +29,10 @@ UserAgent = Agent ->
   @collab SomeOtherAgent
   @expose login, User
 ```
+### Modules
+
+### Control Structures
+
+**run**
+**series**
+**chain**
