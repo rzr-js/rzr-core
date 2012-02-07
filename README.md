@@ -1,2 +1,2 @@
-**rzr** is an opinionated, functional microframework 
+**rzr** is a razor-thin functional application framework 
 
