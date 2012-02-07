@@ -8,7 +8,6 @@
 login = Service ->
   @in 
     user: X @User
-
   @out
     user: @find @user
     token: generateToken()
