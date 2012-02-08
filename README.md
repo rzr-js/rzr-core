@@ -48,11 +48,15 @@ run Services in series
 
 ```coffeescript
 series
-  svc1
-    foo: 'foo'
-    bar: 'bar'
-  svc2
-    baz: 'baz'
+  delay
+    timeout: 5
+    cb: -> console.log "5"
+  delay
+    timeout: 2
+    cb: -> console.log "2"
+
+# 5
+# 2
 ```
 
 
