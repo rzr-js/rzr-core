@@ -31,6 +31,12 @@ UserAgent = Agent ->
 ```
 ### Modules
 
+a Module is a collection of related Models and Services (and their specs), with one Agent governing the Module.  Modules can be nested within other Modules with arbitrary depth 
+
+### Specs
+
+Specs are executable specifications that specify some behavior that needs to be fulfilled, every service has at least one Spec.  Spec support is provided by the Spex framework
+
 ### Control Structures
 
 **run**
