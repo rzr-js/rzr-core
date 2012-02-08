@@ -42,6 +42,27 @@ every service has at least one Spec.  Spec support is provided by the Spex frame
 
 ### Control Structures
 
-**run**<br>
 **series**<br>
+
+run Services in series
+
+```coffeescript
+series
+  svc1
+    foo: 'foo'
+    bar: 'bar'
+  svc2
+    baz: 'baz'
+```
+
+
 **chain**<br>
+
+run Services in series, passing output of one to the next
+
+```coffeescript
+chain
+  login
+    user: user  
+  handleLogin
+```
